@@ -1,0 +1,278 @@
+.custom_nav {
+    font-size: 15px;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(-55deg, rgb(228, 9, 20) 40%, rgb(143, 145, 137) 60%);
+}
+
+#effect a:link, a:visited {
+    background-color: #777c7cf1;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    margin-left: 20px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 2.5px;
+  }
+#effect a:hover {
+    background: linear-gradient(55deg, rgb(228, 9, 20) 40%, rgb(143, 145, 137) 60%);
+}
+#set {
+    background: linear-gradient(-55deg, rgb(228, 9, 20) 60%, rgb(143, 145, 137) 40%);
+    font-size: 15px;
+    text-align: center;
+}
+#set td{
+    font-style: italic;
+    color: aliceblue;
+}
+.custom-divider {
+    height: 5px;
+    background: rgb(255, 145, 0);
+    background: linear-gradient(55deg, rgb(228, 9, 20) 40%, rgb(143, 145, 137) 60%);
+}
+#fill-form {
+    background: linear-gradient(-55deg, rgb(228, 9, 20) 40%, rgb(143, 145, 137) 60%);
+
+}
+.just{
+    text-align: justify;
+}
+.main-banner {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-image: url(img/banner.jpg);
+    background-size: auto;
+    font-style: italic;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(17, 16, 16);
+}
+.main-banners {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-image: url(img/english.jpg);
+    background-size: auto;
+    font-style: italic;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(17, 16, 16);
+}
+
+.main-banner p {
+    background: linear-gradient(55deg, rgb(228, 9, 20) 40%, rgb(143, 145, 137) 60%);
+}
+
+.main-banner h1 {
+    background: linear-gradient(55deg, rgb(228, 9, 20) 40%, rgb(143, 145, 137) 60%);
+}
+
+
+.feature-holder {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+section.features {
+    padding-top: 35px;
+    padding-bottom: 25px;
+    background-color: whitesmoke;
+}
+#deco {
+    background: linear-gradient(-55deg, rgb(223, 57, 57) 50%, rgb(143, 145, 137) 50%);
+}
+.feature-holder h3 {
+    font-size: 1.2em;
+}
+
+.feature-holder p {
+    font-size: 14px;
+}
+#arrow {
+    color: rebeccapurple;
+    float: right;
+    border: 2px solid black;
+    font-size: 55px;
+
+}
+section.online-courses {
+    background: linear-gradient(-155deg, rgb(255, 255, 255) 50%, rgb(143, 145, 137) 50%);
+}
+
+section.online-courses,
+.classroom-training,
+.rating,
+.page-content {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.online-courses-text-widget,
+.classroom-courses-text-widget,
+.review-text-widget {
+    text-align: center;
+}
+
+.online-courses-text-widget h2,
+.classroom-courses-text-widget h2,
+.review-text-widget h2 {
+    font-size: 1.3em;
+}
+
+.online-courses-text-widget p,
+.classroom-courses-text-widget p,
+.review-text-widget p {
+    font-size: 14px;
+}
+
+.online-course-card,
+.review-text-widget {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.online-course-card .card-title {
+    font-size: 1em;
+    line-height: 20px;
+}
+
+.card.online-course-card .card-text {
+    font-size: 14px;
+}
+
+.classroom-training,
+.page-content {
+    background-color: whitesmoke;
+}
+
+.rating {
+    background-color: #ececec;
+}
+
+.sign-up-form-sidebar .card-title {
+    font-size: 1.2em;
+}
+
+.sign-up-form-sidebar .card-text {
+    font-size: 14px;
+}
+
+.course-list-item {
+    font-size: small;
+    padding-top: 20px;
+    color: black;
+}
+
+.course-list-item h5 {
+    font-size: 1.2em;
+}
+
+.rating-box .card {
+    margin-left: 25px;
+    color: rgb(10, 10, 10);
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    width: 240px;
+}
+/* .teacher-box .card {
+    text-align: center;
+    margin-left: 10%;
+} */
+#icon-star {
+    font-size: 24px;
+    color: rgb(255, 217, 0);
+}
+
+.rating-box .card img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.rating-box .card .card-title ,.teacher-box .card .card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.review-text-widget h2 {
+    font-size: 30px;
+    padding-top: 2%;
+    text-align: center;
+}
+.rating-box .card .card-text, .teacher-box .card .card-text {
+    font-size: 14px;
+}
+
+footer.main-footer {
+    background: linear-gradient(-55deg, rgb(228, 9, 20) 40%, rgb(143, 145, 137) 60%);
+    ;
+    color: rgb(15, 15, 15);
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+aside.footer-widget {
+    margin-bottom: 25px;
+}
+
+aside.footer-widget h5 {
+    font-size: 16px;
+}
+
+aside.footer-widget ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+aside.footer-widget ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #0a0a0a;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.card-body a {
+    background-color: rgb(150, 129, 129);
+    border: none;
+    opacity: 1;
+    transition: 0.3s
+}
+
+.d-flex, #but {
+    background-color: rgb(252, 195, 7);
+    border: none;
+    opacity: 1;
+    transition: 0.3s
+}
+
+.d-flex:hover, #but:hover{
+    opacity: 0.6
+}
+
+address h2 {
+    font-size: 20px;
+}
+
+address p {
+    font-size: 14px;
+}
+
+section.copy {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: linear-gradient(-555deg, rgb(228, 9, 20) 40%, rgb(143, 145, 137) 60%);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+section.copy p {
+    margin: 0px;
+}
+
+.google-map {
+    padding-top: 56px;
+    width: 100%;
+}

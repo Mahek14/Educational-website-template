@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Education Website</title>
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top custom_nav">
+        <div class="container">
+            <a class="navbar-brand" href="#">Eduatmdd</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul id="effect" class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-expanded="false">
+                            Courses
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="class4.html">Class 4</a></li>
+                            <li><a class="dropdown-item" href="class5.html">Class 5 </a></li>
+                            <li><a class="dropdown-item" href="class6.html">Class 6</a></li>
+                            <li><a class="dropdown-item" href="class7.html">Class 7 </a></li>
+                            <li><a class="dropdown-item" href="class8.html">Class 8</a></li>
+                            <li><a class="dropdown-item" href="class9.html">Class 9 </a></li>
+                            <li><a class="dropdown-item" href="class10.html">Class 10</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a href="#" data-toggle="modal" data-target="#register_online" class="btn btn-sm ">Register Here</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="main-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8">
+                    <div class="main-banner-content">
+                        <h1>EduAtMdd</h1>
+                        <p>LEARN FROM THE BEST TEACHERS<br> For classes 4th to 10th</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Features list holder -->
+    <section class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="feature-holder">
+                        <i class="fa fa-bar-chart" aria-hidden="true" style="font-size: 48px;"></i>
+                        <h3>Maths Trigonomentary</h3>
+                        <p>Learn trigonomentary in best way. Everyday doubt solving , provided with tips and tricks by
+                            professionals</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="feature-holder">
+                        <i class="fa fa-book" aria-hidden="true" style="font-size: 48px;"></i>
+                        <h3>English Grammar</h3>
+                        <p>Learn from the specialist and become expert.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="feature-holder">
+                        <i class="fa fa-globe" aria-hidden="true" style="font-size: 48px;"></i>
+                        <h3>Geography</h3>
+                        <p>With our teachers, your child will have knowledge of each geographical location.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <div class="feature-holder">
+                        <i class="fa fa-backward" aria-hidden="true" style="font-size: 48px;"></i>
+                        <h3>History</h3>
+                        <p>Let's go back to the history with our teachers. Have knowledge about the fighters and many
+                            more.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="online-courses">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="online-courses-text-widget">
+                        <h2>Online Courses</h2>
+                        <p>Online classes are typically a mix of video recordings or live lectures supplemented with
+                            readings and assessments that students can complete on their own time.</p>
+                        <a href="#" class="btn btn-warning btn-sm">View all Courses</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-4">
+                    <div class="card online-course-card">
+                        <img src="img/english.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">English for Class 5</h3>
+                            <p class="card-text">Learn grammar, live lectures and daily doubt solving</p>
+                            <a href="english.html" class="btn btn-sm btn-primary">View Course</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="card online-course-card">
+                        <img src="img/all.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">All Subject Combos for Class 9</h3>
+                            <p class="card-text">daily lectures, doubt solving, exams on weekends</p>
+                            <a href="#" class="btn btn-sm btn-primary">View Course</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="card online-course-card">
+                        <img src="img/all.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">All Subject Combos for Class 4</h3>
+                            <p class="card-text">daily lectures, doubt solving, exams on weekends</p>
+                            <a href="#" class="btn btn-sm btn-primary">View Course</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="card online-course-card">
+                        <img src="img/eng.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">English for Class 8</h3>
+                            <p class="card-text">Learn grammar, live lectures and daily doubt solving</p>
+                            <a href="#" class="btn btn-sm btn-primary">View Course</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="card online-course-card">
+                        <img src="img/math2.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Maths for Class 10</h3>
+                            <p class="card-text">Solve maths with us. You will get formula books, daily tutorials and
+                                doubt solving session at anytime.</p>
+                            <a href="#" class="btn btn-sm btn-primary">View Course</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="card online-course-card">
+                        <img src="img/math.jpg" class="img-fluid" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title">Maths for Class 7</h3>
+                            <p class="card-text">Solve maths with us. You will get formula books, daily tutorials and
+                                doubt solving session at anytime.</p>
+                            <a href="#" class="btn btn-sm btn-primary">View Course</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rating">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-6">
+                    <div class="review-text-widget">
+                        <h2>Reviews</h2>
+                        <p>Glance what people think about us!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="rating-box">
+
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/girl.png" alt="">
+                                <h6 class="card-title">Anjali</h6>
+                                <p class="card-text">Really amazing. Fantastic. Thank You EduAtMdd.</p>
+                                <div id="icon-star">
+                                    <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                        aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                                        class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                        aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/boy.png" alt="">
+                                <h6 class="card-title">Sahil</h6>
+                                <p class="card-text">Really amazing. Fantastic. Thank You EduAtMdd.</p>
+                                <div id="icon-star">
+                                    <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                        aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                                        class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                        aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/girl.png" alt="">
+                                <h6 class="card-title">Priya</h6>
+                                <p class="card-text">Really amazing. Fantastic. Thank You EduAtMdd.</p>
+                                <div id="icon-star">
+                                    <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                        aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                                        class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                        aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/boy.png" alt="">
+                                <h6 class="card-title">Rohit</h6>
+                                <p class="card-text">Really amazing. Fantastic. Thank You EduAtMdd.</p>
+                                <div id="icon-star">
+                                    <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                        aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                                        class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star"
+                                        aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="index.html">
+            <i id="arrow" class="fa fa-arrow-up" aria-hidden="true"></i></a>
+    </section>
+
+    <!-- Foter -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <aside class="footer-widget">
+                        <h5>Follow us</h5>
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">YouTube</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <aside class="footer-widget">
+                        <h5>Site Map</h5>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <aside class="footer-widget">
+                        <h5>Find Courses</h5>
+                        <ul>
+                            <li><a href="class4.html">Class 4</a></li>
+                            <li><a href="class5.html">Class 5</a></li>
+                            <li><a href="class6.html">Class 6</a></li>
+                            <li><a href="class7.html">Class 7</a></li>
+                            <li><a href="class8.html">Class 8</a></li>
+                            <li><a href="class9.html">Class 9</a></li>
+                            <li><a href="class10.html">Class 10</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6">
+                    <aside class="footer-widget">
+                        <address>
+                            <h2>EduAtMdd</h2>
+                            <p>Promises for a better future for your children.</p>
+                            <p><strong>Email: </strong> <a href="mailto:eduatmdd@wer.com">eduAtMdd@mail.com</a></p>
+                            <p><strong>Phone: </strong> <a href="tel:+919876543210">+91 987 654 3210</a></p>
+                        </address>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copy -->
+    <section class="copy">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; 2020. All Rigts Reserved</p>
+                    <p>Made by Mahek Desai</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Copy -->
+    <div class="modal fade" id="register_online" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Register Online</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="custom-divider"></div>
+                <div class="modal-body">
+                    <p>
+                        We will provide a better education for your students. Best teacher will help to guide your
+                        children's future!!
+                    </p>
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control form-control-sm" placeholder="First Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control form-control-sm" placeholder="Last Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control form-control-sm" placeholder="Email ID" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" class="form-control form-control-sm" placeholder="Phone Number" required>
+                        </div>
+                        <div class="mb-3">
+                            <input onclick="submitForm()" type="submit" class="btn btn-success btn-block btn-sm"
+                                value="Regsiter Now">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Register Online Popup -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#review_slider_content").lightSlider({
+                auto: true,
+                loop: true,
+                responsive: [{
+                        breakpoint: 800,
+                        settings: {
+                            item: 3,
+                            slideMove: 1,
+                            slideMargin: 6,
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            item: 1,
+                            slideMove: 1
+                        }
+                    }
+                ]
+            });
+        })
+    </script>
+
+</body>
+
+</html>
